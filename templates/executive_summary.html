@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Laporan Hasil Medical Check Up</title>
+    <style>
+        body.executive_summary {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        .watermark {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('file:///C:/Users/keans/OneDrive/Documents/Coding/MSIB Plebo/MCU Report PDF/templates/plebo_watermark_a4.png') center center no-repeat;
+            z-index: -1; /* Keeps it behind the content */
+            opacity: 0.3; 
+            background-size: cover;
+        }
+
+        .report-box {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            border: 1px solid #eee;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+            background-color: #fff;
+            box-sizing: border-box;
+            position: relative; 
+        }
+
+        .title-text {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .section-header {
+            font-weight: bold;
+            font-size: 1.2em;
+            background-color: #0c4954;
+            color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            text-align: left;
+        }
+
+        .content-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        .content-table th,
+        .content-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .content-table th {
+            background-color: #0c4954;
+            color: white;
+        }
+
+        .list-table-container {
+            width: 800px;
+            justify-content: center;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            page-break-inside: avoid;
+            position: relative;
+        }
+
+        .list-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .list-table-header {
+            background-color: #0c4954;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        .list-table-row td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            word-wrap: break-word; 
+            word-break: break-word
+        }
+
+        .list-table th {
+            word-wrap: break-word;
+            word-break: break-word
+        }
+
+        .list-table-number {
+            width: 5%;
+            text-align: center;
+        }
+
+        .list-table-text {
+            width: 95%;
+            text-align: left;
+        }
+
+        .final-section {
+            page-break-inside: avoid;
+        }
+
+        .kesimpulan-section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #eee;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+            background-color: #f9f9f9;
+            page-break-inside: avoid;
+            box-sizing: border-box;
+        }
+
+        .kesimpulan-section h3 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            margin-top: 0px;
+        }
+
+        .footer {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            margin-top: 40px;
+            text-align: right;
+            font-size: 14px;
+            color: #555;
+            page-break-inside: avoid;
+        }
+    </style>
+</head>
+<body class="executive_summary">
+    <!-- Watermark -->
+    <div class="watermark"></div>
+
+    <div style="height: 25px;"></div>
+
+    <div class="report-box">
+        <h1 class="title-text">Laporan Hasil Medical Check Up</h1>
+        <!-- Patient Info Section -->
+        <div class="section-header">I. IDENTITAS</div>
+        <table class="content-table">
+            <tr>
+                <th>Nama</th>
+                {% for subheader, fields in data["MASTER DATA"].items() %}
+                {% if 'name' in fields %}
+                    <td>{{ fields.name }}</td>
+                {% endif %}
+                {% endfor %}
+
+                <th>No. Rekam Medis</th>
+                {% for subheader, fields in data["MASTER DATA"].items() %}
+                {% if 'medical_record_number' in fields %}
+                    <td>{{ fields.medical_record_number }}</td>
+                {% endif %}
+                {% endfor %}
+            </tr>
+            <tr>
+                <th>Tgl. Lahir</th>
+                {% for subheader, fields in data["MASTER DATA"].items() %}
+                {% if 'date_of_birth' in fields %}
+                    <td>{{ fields.date_of_birth }}</td>
+                {% endif %}
+                {% endfor %}
+
+                <th>Tgl. Pemeriksaan</th>
+                {% for subheader, fields in data["MASTER DATA"].items() %}
+                {% if 'mcu_date' in fields %}
+                    <td>{{ fields.mcu_date }}</td>
+                {% endif %}
+                {% endfor %}
+            </tr>
+            <tr>
+                <th>Usia</th>
+                {% for subheader, fields in data["MASTER DATA"].items() %}
+                {% if 'age' in fields %}
+                    <td>{{ fields.age }}</td>
+                {% endif %}
+                {% endfor %}
+
+                <th>Dokter Pemeriksa</th>
+                {% for subheader, fields in data["MASTER DATA"].items() %}
+                {% if 'mcu_date' in fields %}
+                    <td>Dr. ABC</td>
+                {% endif %}
+                {% endfor %}
+            </tr>
+            <tr>
+                <th>Perusahaan</th>
+                {% for subheader, fields in data["MASTER DATA"].items() %}
+                {% if 'corporate_name' in fields %}
+                    <td>{{ fields.corporate_name }}</td>
+                {% endif %}
+                {% endfor %}
+                
+                <th>Departemen</th>
+                {% for subheader, fields in data["MASTER DATA"].items() %}
+                {% if 'department' in fields %}
+                    <td>{{ fields.department }}</td>
+                {% endif %}
+                {% endfor %}
+            </tr>
+            <tr>
+                <th>Kelamin</th>
+                {% for subheader, fields in data["MASTER DATA"].items() %}
+                {% if 'gender' in fields %}
+                    <td>{{ fields.gender }}</td>
+                {% endif %}
+                {% endfor %}
+
+                <th>Paket MCU</th>
+                {% for subheader, fields in data["MASTER DATA"].items() %}
+                {% if 'mcu_package' in fields %}
+                    <td>{{ fields.mcu_package }}</td>
+                {% endif %}
+                {% endfor %}
+            </tr>
+        </table>
+    </div>
+
+    <!-- Executive Summary Section -->
+    <div class="list-table-container"> 
+        <div class="section-header">II. EXECUTIVE SUMMARY</div>
+        <!--Physical Examination Results-->
+        <table class="list-table">
+            <thead>
+                <tr>
+                    <th colspan="2" class="list-table-header">Resume</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="list-table-row">
+                    {% for subheader, fields in data["MASTER DATA"].items() %}
+                    {% if 'diagnosis' in fields %}
+                        <td class="list-table-text">{{ fields.diagnosis | replace("\n", "<br>") | safe }}</td>
+                    {% endif %}
+                    {% endfor %}
+                    
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+
+    <!-- Saran Section -->
+    <div class="list-table-container">
+        <div class="section-header">III. SARAN</div>
+        <table class="list-table">
+            <thead>
+                <tr>
+                    <th colspan="2" class="list-table-header">Saran</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="list-table-row">
+                    {% for subheader, fields in data["MASTER DATA"].items() %}
+                    {% if 'recommendation' in fields %}
+                        <td class="list-table-text">{{ fields.recommendation | replace("\n", "<br>") | safe }}</td>
+                    {% endif %}
+                    {% endfor %}
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="final-section">
+        <!-- Kesimpulan Section -->
+        <div style="height: 5px;"></div>
+        <div class="kesimpulan-section">
+            <h3>Kesimpulan</h3>
+            {% for subheader, fields in data["MASTER DATA"].items() %}
+            {% if 'fit_status' in fields %}
+                <td class="list-table-text">{{ fields.fit_status }}</td>
+            {% endif %}
+            {% endfor %}
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            Dokter Penanggung Jawab:<br>
+            Dr. ABC<br>
+            Dr. XYZ
+        </div>
+    </div>
+    
+</body>
+</html>

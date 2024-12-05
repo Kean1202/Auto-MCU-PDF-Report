@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Medical Report</title>
+    <style>
+        body.cover_page {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: none;
+        }
+        .header-logo {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            margin-left: 20px;
+        }
+        .plebo-header-logo{
+            margin-top: 170px;
+            margin-bottom: 35px;
+        }
+        .cover-content {
+            margin-top: 200px;
+        }
+        .cover-content h1 {
+            font-size: 3.25em;
+            font-weight: bold;
+            color: #000000;
+        }
+        .cover-content h2{
+            font-size: 1.75em;
+            font-weight: normal;
+            color: #000000;
+            margin-bottom: 0px;
+        }
+        .cover-content h3 {
+            font-size: 1.5em;
+            font-weight: normal;
+            color: #000000;
+            margin-bottom: 0px;
+        }
+    </style>
+</head>
+<body class="cover_page">
+    <div class="header-logo">
+        <img src="file:///C:/Users/keans/OneDrive/Documents/Coding/MSIB Plebo/MCU Report PDF/templates/logo_plebo.png" alt="Plebo Logo" style="height: 180px" class="plebo-header-logo">
+        <br>
+        <div class="powered-by-row">
+            <h3 style="display: inline; margin-right: 15px; font-size: 0.9em;">Powered by:</h3>
+            <img src="file:///C:/Users/keans/OneDrive/Documents/Coding/MSIB Plebo/MCU Report PDF/templates/logo_cognitio.png" alt="Cognitio Logo" style="height: 75px; vertical-align: middle; margin-bottom:10px;">
+        </div>
+    </div>
+    
+    <div class="cover-content">
+        <h1>Laporan Medical Check Up</h1>
+        <!-- Find and display 'name' from MASTER DATA -->
+        <h2 style="font-weight: bold; margin-bottom: 0px;">
+            {% for subheader, fields in data["MASTER DATA"].items() %}
+                {% if 'name' in fields %}
+                    {{ fields.name }}
+                {% endif %}
+            {% endfor %}
+        </h2>
+
+        <h3><em>Tanggal MCU</em></h3>
+        <h3 style="font-weight: bold;">
+            {% for subheader, fields in data["MASTER DATA"].items() %}
+                {% if 'mcu_date' in fields %}
+                    {{ fields.mcu_date }}
+                {% endif %}
+            {% endfor %}
+        </h3>
+    </div>
+</body>
+</html>

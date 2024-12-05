@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Medical Report</title>
+    <style>
+        body.examination_pages {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        .watermark {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('file:///C:/Users/keans/OneDrive/Documents/Coding/MSIB Plebo/MCU Report PDF/templates/plebo_watermark_a4.png') center center no-repeat;
+            z-index: -1; /* Keeps it behind the content */
+            opacity: 0.3;
+        }
+
+        .report-box,
+        .section-header,
+        .list-table-container-examination {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-sizing: border-box; 
+            page-break-inside: avoid;
+            position: relative; 
+        }
+
+        .report-box {
+            border: 1px solid #eee;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+            page-break-inside: avoid;
+        }
+
+        .title-text {
+            text-align: center;
+            font-size: 24px;
+            margin: 10px auto;
+            font-weight: bold;
+        }
+
+        .section-header {
+            font-weight: bold;
+            font-size: 1.2em;
+            background-color: #0c4954;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 0 auto 10px auto;
+        }
+
+        .list-table-container-examination {
+            background-color: #E9F0EC ; 
+            border-radius: 8px;
+            padding: 20px 20px;
+            page-break-inside: always;
+        }
+
+        .custom-list-table-examination {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+            page-break-inside: always;
+        }
+
+        .custom-list-table-examination td {
+            padding: 10px;
+            margin: 20px 0;
+        }
+
+        .custom-subheader-examination {
+            font-weight: bold;
+            margin-top: 10px;
+            margin-bottom: 5px;
+            font-size: 20px;
+            color: #333;
+            text-align: left; 
+        }
+
+        .custom-columns-table-examination {
+            width: 100%;
+            margin: 5px 0 15px 20px; /* Indentation */
+            table-layout: fixed; /* Ensure consistent spacing */
+            margin: 10px 0;
+        }
+
+        .custom-columns-table-examination colgroup col {
+            width: 40%; 
+        }
+
+        .custom-column-row-examination td {
+            padding: 5px 10px;
+            padding: 10px 10px;
+        }
+
+        .custom-column-label {
+            font-weight: bold;
+            text-align: left;
+        }
+
+        .custom-column-value-examination {
+            text-align: left;
+        }
+
+        .page-break {
+            page-break-before: always;
+        }
+    </style>
+</head>
+<body class="examination_pages">
+    <!-- Watermark -->
+    <div class="watermark"></div>
+    {% for section_title, section_data in sections.items() %}
+        <div style="height: 20px;"></div>
+        <!-- Patient Data Table -->
+         <div class="report-box">
+            <h1 class="title-text">Hasil Pemeriksaan</h1>
+            <table class="content-table">
+                <tr>
+                    <th>Nama</th>
+                    {% for subheader, fields in data["MASTER DATA"].items() %}
+                    {% if 'name' in fields %}
+                        <td>{{ fields.name }}</td>
+                    {% endif %}
+                    {% endfor %}
+    
+                    <th>No. Rekam Medis</th>
+                    {% for subheader, fields in data["MASTER DATA"].items() %}
+                    {% if 'medical_record_number' in fields %}
+                        <td>{{ fields.medical_record_number }}</td>
+                    {% endif %}
+                    {% endfor %}
+                </tr>
+                <tr>
+                    <th>Tgl. Lahir</th>
+                    {% for subheader, fields in data["MASTER DATA"].items() %}
+                    {% if 'date_of_birth' in fields %}
+                        <td>{{ fields.date_of_birth }}</td>
+                    {% endif %}
+                    {% endfor %}
+    
+                    <th>Tgl. Pemeriksaan</th>
+                    {% for subheader, fields in data["MASTER DATA"].items() %}
+                    {% if 'mcu_date' in fields %}
+                        <td>{{ fields.mcu_date }}</td>
+                    {% endif %}
+                    {% endfor %}
+                </tr>
+                <tr>
+                    <th>Usia</th>
+                    {% for subheader, fields in data["MASTER DATA"].items() %}
+                    {% if 'age' in fields %}
+                        <td>{{ fields.age }}</td>
+                    {% endif %}
+                    {% endfor %}
+    
+                    <th>Dokter Pemeriksa</th>
+                    {% for subheader, fields in data["MASTER DATA"].items() %}
+                    {% if 'mcu_date' in fields %}
+                        <td>Dr. ABC</td>
+                    {% endif %}
+                    {% endfor %}
+                </tr>
+                <tr>
+                    <th>Perusahaan</th>
+                    {% for subheader, fields in data["MASTER DATA"].items() %}
+                    {% if 'corporate_name' in fields %}
+                        <td>{{ fields.corporate_name }}</td>
+                    {% endif %}
+                    {% endfor %}
+                    
+                    <th>Departemen</th>
+                    {% for subheader, fields in data["MASTER DATA"].items() %}
+                    {% if 'department' in fields %}
+                        <td>{{ fields.department }}</td>
+                    {% endif %}
+                    {% endfor %}
+                </tr>
+                <tr>
+                    <th>Kelamin</th>
+                    {% for subheader, fields in data["MASTER DATA"].items() %}
+                    {% if 'gender' in fields %}
+                        <td>{{ fields.gender }}</td>
+                    {% endif %}
+                    {% endfor %}
+    
+                    <th>Paket MCU</th>
+                    {% for subheader, fields in data["MASTER DATA"].items() %}
+                    {% if 'mcu_package' in fields %}
+                        <td>{{ fields.mcu_package }}</td>
+                    {% endif %}
+                    {% endfor %}
+                </tr>
+            </table>
+        </div>
+
+        <!-- Examination Data -->
+        {% if section_data %}
+        <div style="align-items: center; justify-content: center;">
+            <h2 class="section-header">{{ loop.index }}. {{ section_title }}</h2>
+        </div>
+            {% for subheader, columns in section_data.items() %}
+            <div class="list-table-container-examination">
+                <!-- Subheader Title -->
+                <div class="custom-subheader-examination">{{ subheader }}</div>
+                <!-- Columns and Values -->
+                <table class="custom-columns-table-examination">
+                    <colgroup>
+                        <col>
+                        <col>
+                    </colgroup>
+                    {% for column, value in columns.items() %}
+                    <tr class="custom-column-row-examination">
+                        <td class="custom-column-label">{{ column.replace('_', ' ').title() }}</td>
+                        <td class="custom-column-value-examination">: {{ value }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+            {% endfor %}
+        {% endif %}
+        <div class="page-break"></div>
+    {% endfor %}
+</body>
+</html>
