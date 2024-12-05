@@ -1,0 +1,17 @@
+# Python-related
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# HTML to PDF Tools
+*.pdf
+*.html  # If these are intermediate debug files
