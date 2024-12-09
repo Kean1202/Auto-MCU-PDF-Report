@@ -1,0 +1,232 @@
+MASTER DATA,,,,,,,,,,,,VITAL SIGNS,,,,,,,,ANAMNESA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,EYE DATA,,,,,,,,,,,,,,,,PHYSICAL EXAMINATION,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,BLOOD DATA,,,,,,,,,,,,,,,,,,,,,,,,,URINE DATA,,,,,,,,,,,,,,,,,,,,,,,,,RADIOLOGY,,,Resep Ayam Geprek,,,,
+SUBHEADER 1,SUBHEADER 1,SUBHEADER 1,SUBHEADER 1,SUBHEADER 1,SUBHEADER 1,SUBHEADER 1,SUBHEADER 1,SUBHEADER 1,SUBHEADER 1,SUBHEADER 1,SUBHEADER 1,SUBHEADER 1,SUBHEADER 1,SUBHEADER 1,SUBHEADER 1,SUBHEADER 2,SUBHEADER 2,SUBHEADER 2,SUBHEADER 2,SUBHEADER 3,SUBHEADER 3,SUBHEADER 3,SUBHEADER 3,SUBHEADER 3,SUBHEADER 3,SUBHEADER 3,SUBHEADER 3,SUBHEADER 3,SUBHEADER 3,SUBHEADER 4,SUBHEADER 4,SUBHEADER 4,SUBHEADER 4,SUBHEADER 4,SUBHEADER 4,SUBHEADER 4,SUBHEADER 4,SUBHEADER 4,SUBHEADER 4,SUBHEADER 4,SUBHEADER 4,SUBHEADER 5,SUBHEADER 5,SUBHEADER 5,SUBHEADER 5,SUBHEADER 5,SUBHEADER 5,SUBHEADER 5,SUBHEADER 5,SUBHEADER 6,SUBHEADER 6,SUBHEADER 6,SUBHEADER 6,SUBHEADER 6,SUBHEADER 6,SUBHEADER 6,SUBHEADER 6,SUBHEADER 6,SUBHEADER 6,SUBHEADER 6,SUBHEADER 6,SUBHEADER 6,SUBHEADER 6,SUBHEADER 6,SUBHEADER 6,SUBHEADER 6,SUBHEADER 6,SUBHEADER 6,SUBHEADER 7,SUBHEADER 7,SUBHEADER 7,SUBHEADER 7,SUBHEADER 7,SUBHEADER 8,SUBHEADER 8,SUBHEADER 8,SUBHEADER 8,SUBHEADER 8,SUBHEADER 8,SUBHEADER 8,SUBHEADER 8,SUBHEADER 8,SUBHEADER 8,SUBHEADER 8,SUBHEADER 9,SUBHEADER 9,SUBHEADER 9,SUBHEADER 9,SUBHEADER 9,SUBHEADER 9,SUBHEADER 9,SUBHEADER 10,SUBHEADER 10,SUBHEADER 10,SUBHEADER 10,SUBHEADER 10,SUBHEADER 10,SUBHEADER 10,SUBHEADER 10,SUBHEADER 10,SUBHEADER 11,SUBHEADER 11,SUBHEADER 11,SUBHEADER 11,SUBHEADER 11,SUBHEADER 11,SUBHEADER 11,SUBHEADER 11,SUBHEADER 11,SUBHEADER 11,SUBHEADER 12,SUBHEADER 12,SUBHEADER 12,SUBHEADER 12,SUBHEADER 12,SUBHEADER 12,SUBHEADER 12,SUBHEADER 12,SUBHEADER 12,SUBHEADER 12,SUBHEADER 12,SUBHEADER 12,SUBHEADER 12,SUBHEADER 13,SUBHEADER 13,SUBHEADER 13,SUBHEADER 13,SUBHEADER 14,SUBHEADER 14,SUBHEADER 14,SUBHEADER 14,SUBHEADER 14,SUBHEADER 14,SUBHEADER 14,SUBHEADER 14,SUBHEADER 15,SUBHEADER 15,SUBHEADER 15,SUBHEADER 15,SUBHEADER 15,SUBHEADER 15,SUBHEADER 15,SUBHEADER 15,SUBHEADER 15,SUBHEADER 15,SUBHEADER 15,SUBHEADER 15,SUBHEADER 15,SUBHEADER 15,SUBHEADER 16,SUBHEADER 16,SUBHEADER 16,SUBHEADER 17,SUBHEADER 17,SUBHEADER 17,SUBHEADER 17,SUBHEADER 17,SUBHEADER 17,SUBHEADER 17,SUBHEADER 17,SUBHEADER 18,SUBHEADER 18,SUBHEADER 18,SUBHEADER 18,SUBHEADER 18,SUBHEADER 18,SUBHEADER 18,SUBHEADER 18,SUBHEADER 18,SUBHEADER 18,SUBHEADER 18,SUBHEADER 18,SUBHEADER 19,SUBHEADER 19,SUBHEADER 19,SUBHEADER 19,SUBHEADER 19,SUBHEADER 20,SUBHEADER 20,SUBHEADER 20,Ayam & Coating,Ayam & Coating,Ayam & Coating,Sambal,Sambal
+name,medical_record_number,mcu_date,gender,date_of_birth,corporate_name,department,mcu_package,diagnosis,recommendation,fit_status,doctor,blood_pressure,pulse_rate,body_temperature,respiratory_rate,body_height,body_weight,bmi,bbi,current_symptoms,anamnesa_habit_alcohol_consumption,anamnesa_habit_smoking,anamnesa_habit_physical_exercise,anamnesa_habit_alcohol_consumption,anamnesa_surgery,anamnesa_inpatient,anamnesa_accident,anamnesa_hypertension,anamnesa_diabetic,anamnesa_hepatitis,anamnesa_cholesterol,anamnesa_heart_disease,anamnesa_asthma,anamnesa_tuberculosis,anamnesa_thyroid,anamnesa_maag,anamnesa_blood_vomit,anamnesa_kidney_disease,anamnesa_kidney_stone,anamnesa_epilepsy,anamnesa_stroke,anamnesa_hemorrhoids,anamnesa_rheumatism,anamnesa_back_pain,anamnesa_sleep_disorder,anamnesa_allergy,anamnesa_faint,anamnesa_visual_impairment,anamnesa_hearing_disorder,anamnesa_cancer,anamnesa_mental_disorder,anamnesa_thypoid,anamnesa_dyspepsia,anamnesa_family_history_hypertension,anamnesa_family_history_diabetic,anamnesa_family_history_hepatitis,anamnesa_family_history_asthma,anamnesa_family_history_tuberculosis,anamnesa_family_history_heart_disease,anamnesa_family_kidney_disease,anamnesa_family_history_cancer,anamnesa_family_history_mental_disorder,anamnesa_hair,anamnesa_skin,anamnesa_nail,anamnesa_scar,anamnesa_tattoo,anamnesa_scar_from_surgery,eye_panel_konjungtiva_anemis,eye_panel_conjungtivitis,eye_panel_sklera_ikterik,eye_panel_pterygium,eye_panel_cataract,glasses,glasses_size,without_glasses_right,without_glasses_left,without_glasses_jegger_right,without_glasses_jegger_left,without_glasses_jegger_right,without_glasses_jegger_left,glasses_jegger_right,glasses_jegger_left,color_blindness,ear_panel_right_mae,ear_panel_left_mae,ear_panel_right_tympanic_membrane,ear_panel_left_tympanic_membrane,nose_panel__septum,nose_panel_right_concha,nose_panel_left_concha,throat_pharynx,throat_tonsils,mouth_tongue,teeth_overall,teeth_gums_overall,neck_panel_right_parotid_gland,neck_panel_left_parotid_gland,thyroid_gland,neck_jvp,kgb_overall,thorax_symmetric,thorax_mammae,cor_boundaries,cor_percussion,cor_auscultation,pulmo_percussion_right,pulmo_percussion_left,pulmo_auscultation_right,pulmo_auscultation_left,abdomen_wall,abdomen_palpation,abdomen_hepar,abdomen_spleen,abdomen_ascites,abdomen_bowel_sound,anogenital_haemorrhoid,anogenital_hernia,extremity_vertebrae,upper_extremity_overall,lower_extremity_overall,joint,fracture,physiological_reflexes_right,physiological_reflexes_left,pathological_reflexes_right,pathological_reflexes_left,hemoglobin,leukocyte,hematocrit,platelet,erythrocyte,mcv,mch,mchc,rdw_cv,basophil,eosinophil,segmented_neutrophil,lymphocyte,monocyte,esr,ast,alt,total_cholesterol,hdl_cholesterol,ldl_cholesterol,fasting_blood_glucose,hba1c_ngsp,urea,creatinine,uric_acid,urine_color,urine_appearance,urine_specific_gravity,urine_leukocyte_esterase,urine_ph,urine_protein,urine_glucose,urine_keton,urine_urobilinogen,urine_bilirubin,urine_nitrite,urine_blood,urine_leukocyte,urine_erythrocyte,urine_epithel,urine_cast,urine_amorf_urat,urine_amorf_phosphat,urine_uric_acid,urine_calcium_oxalat,urine_triple_phosphat,urine_crystal_other,urine_bacteria,urine_fungi,urine_other,thorax_cr,ekg,treadmill,Ayam,Tepung,"Garam, merica, bubuk bawang",Sambal merah,Bawang putih
+Pasien A,REG/MT1/202409050009,2024-09-05,Male,26-10-1980,corporate A,HR,Paket MCU A,"Pemeriksaan Fisik
+ Obesitas (BMI : 29.75)
+Myopia ( Visus tanpa kacamata OD : 6/25, Visus tanpa kacamata OS : 6/25 )
+Buta Warna ( Buta Warna : Partial )
+Caries gigi (gigi berlubang), Missing (gigi hilang), Plaque/Kalkulus gigi  ( Gigi : Caries, Missing, Plaque/Kalkulus )
+Diabetes Mellitus ( Ada, Ibu )
+Hipertensi ( Ada, Ibu )
+Obat-obatan yang dikonsumsi saat ini ( Bisoprolol 5mg, Obat Glaukoma, Vitamin D3 K2 )
+Olahraga ( Ya, Badminton 4x/minggu )
+Rawat Inap ( Pernah, Karena DBD dan Tipes (2010) )
+
+Pemeriksaan Laboratorium
+ Kadar kolesterol total tinggi/hiperkolesterolemia (Kolesterol Total : 276 mg/dL)
+Kadar kolesterol LDL sangat tinggi (LDL Kolesterol Direk : 224 mg/dL)
+Dugaan Diabetes melitus (Glukosa Puasa : 134 mg/dL)
+Peningkatan kadar asam urat dalam darah (hiperurisemia) (Asam Urat : 8.1 mg/dL)
+","
+Lakukan pola hidup sehat dengan: Diet rendah lemak dan karbohidrat Perbanyak konsumsi sayur, buah segar, dan serat.
+Melakukan olah raga sesuai dengan umur dan kemampuan secara teratur 3-5x/minggu selama ± 30 menit untuk mencapai berat badan ideal.
+Konsultasi ke dokter perusahaan/dokter keluarga.
+
+Bila tidak berkacamata, konsultasi ke dokter spesialis mata untuk memastikan perlu tidaknya penggunaan kacamata. Bila berkacamata konsultasi ke dokter spesialis mata untuk memastikan ukuran lensa kacamata yang tepat
+
+Konsultasi ke dokter perusahaan untuk penempatan kerja  Hindari bekerja pada bagian yang membutuhkan ketelitian membedakan warna
+
+Jaga kebersihan gigi / mulut.  Konsultasi ke dokter perusahaan / dokter gigi.
+
+Lakukan penurunan kadar kolesterol total dengan: Hindari konsumsi makanan tinggi lemak, alkohol, dan soda. Perbanyak konsumsi sayur, buah segar, dan serat.
+Olah raga sesuai dengan umur dan kemampuan secara teratur 3-5x/minggu selama ± 30 menit untuk mencapai berat badan ideal.
+Konsultasi ke dokter perusahaan/dokter keluarga/dokter spesialis Penyakit Dalam.
+
+Konsultasi ke dokter perusahaan/dokter keluarga dan lakukan penurunan kadar kolesterol total dengan: Hindari konsumsi makanan tinggi lemak, alkohol, dan soda.
+Perbanyak konsumsi sayur, buah segar, dan serat.
+Olah raga sesuai dengan umur dan kemampuan secara teratur 3-5x/minggu selama ± 30 menit untuk mencapai berat badan ideal.
+
+Biasakan minum air putih 1.5-2 liter/hari (disarankan air hangat) disesuaikan dengan kondisi fisik, serta hindari kebiasaan menahan buang air kecil untuk mencegah risiko timbulnya infeksi dan batu saluran kemih.
+Jika dalam kondisi menstruasi (untuk perempuan), lakukan ulang pemeriksaan urinalisa 1 minggu setelah bersih menstruasi
+
+Diet rendah purin dan konsultasi ke dokter perusahaan/dokter keluarga atau dokter spesialis penyakit dalam.
+
+Lakukan pemeriksaan kesehatan berkala setidaknya setiap 1 tahun sekali",FIT WITH NOTE,"Dr. Andi Wiradharma, SpPK(K) dr. Lutvia Aprilita",120/80,72,36.5,18,165,81,29.75,58.5,Tidak Ada,"Bisoprolol 5mg, Obat Glaukoma, Vitamin D3 K2",Tidak,"Ya, Badminton 4x/minggu",Tidak,Tidak Pernah,"Pernah, Karena DBD dan Tipes (2010)",Tidak Pernah,Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,"Ada, Ibu","Ada, Ibu",Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Normal,Normal,Normal,Tidak Ada,Tidak Ada,Tidak,Negatif,Negatif,Negatif,Negatif,Tidak,Tidak,-,6/25,6/25,J2,J2,-,-,-,-,Partial,Normal,Normal,Intak,Intak,Normal,Normal,Normal,Normal,Normal,Normal,"Caries, Missing, Plaque/Kalkulus",Normal,Normal,Normal,Normal,Normal,Normal,Ya,Normal,Normal,Reguler,Normal,Sonor,Sonor,Vesikuler,Vesikuler,Supel,Tidak,Tidak Teraba,Tidak Teraba,Tidak,Normal,Tidak,Tidak,Normal,Normal,Normal,Normal,Tidak,Positif,Positif,Negatif,Negatif,15.8 ,6.2 ,47.2 ,230 ,5.6 ,84.6 ,28.3 ,33.5 ,12.6 ,0.5 ,2.9 ,42.4 *,47.4 *,6.8 ,7 ,35 ,36 ,276 *,41 ,224 *,134 *,6.4 *,18.9 ,0.89 ,8.1 *,Kuning ,Jernih ,1.005 ,Negatif ,6.5 ,Negatif ,Negatif ,Negatif ,Normal ,Negatif ,Negatif ,Negatif ,0 - 2 ,0 - 2 ,+ 1 ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,- Tidak tampak kelainan radiologis pada jantung dan paru.,"Normal EKG, HR: 72 x/menit","Negative Ischemic Response (Normal exercise test) Exercise induced hypertension. Regular exercise, check blood pressure regularly.",1 Kg,200g,1 sendok teh,10 potong,5 siung
+Pasien B,REG/MT1/202409100001,2024-09-10,Male,10-03-1971,corporate A,Direktur,Paket MCU A,"Pemeriksaan Fisik
+ Obesitas (BMI : 25)
+Myopia ( Visus dengan kacamata OD : 6/12, Visus dengan kacamata OS : 6/7.5, Visus tanpa kacamata OD : 6/25, Visus tanpa kacamata OS : 6/25 )
+Presbyopia ( Jegger tanpa kacamata OD : J3, Jegger tanpa kacamata OS : J3 )
+Missing (gigi hilang), Plaque/Kalkulus gigi  ( Gigi : Missing, Plaque/Kalkulus )
+Diabetes Mellitus ( Ada, Ibu )
+Hipertensi ( Ada, Ayah )
+Olahraga ( Ya, Bulutangkis 3x/minggu )
+Operasi ( Pernah, Riwayat Appendectomi (Agustus 1991) )
+Rawat Inap ( Pernah, Post Appendectomi (Agustus 1991) )
+Ukuran Kacamata ( Progresif, Lupa ukuran kacamata )
+
+Pemeriksaan Laboratorium
+ Peningkatan Laju Endap Darah (LED : 12 mm/Jam)
+Kadar kolesterol LDL mendekati optimal (LDL Kolesterol Direk : 125 mg/dL)
+","
+Lakukan pola hidup sehat dengan: Diet rendah lemak dan karbohidrat Perbanyak konsumsi sayur, buah segar, dan serat.
+Melakukan olah raga sesuai dengan umur dan kemampuan secara teratur 3-5x/minggu selama ± 30 menit untuk mencapai berat badan ideal.
+Konsultasi ke dokter perusahaan/dokter keluarga.
+
+Bila tidak berkacamata, konsultasi ke dokter spesialis mata untuk memastikan perlu tidaknya penggunaan kacamata. Bila berkacamata konsultasi ke dokter spesialis mata untuk memastikan ukuran lensa kacamata yang tepat
+
+Bila tidak berkacamata, konsultasi ke dokter spesialis mata untuk memastikan perlu tidaknya penggunaan kacamata. Bila berkacamata konsultasi ke dokter spesialis mata untuk memastikan ukuran lensa kacamata yang tepat
+
+Jaga kebersihan gigi / mulut.  Konsultasi ke dokter perusahaan / dokter gigi.
+
+Konsultasi ke dokter perusahaan/dokter keluarga.
+
+Lakukan pemeriksaan kesehatan berkala setidaknya setiap 1 tahun sekali",FIT WITH NOTE,"Dr. Andi Wiradharma, SpPK(K) dr. Lutvia Aprilita",110/70,59,36.2,19,160,64,25,54,Tidak Ada,Tidak Ada,Tidak,"Ya, Bulutangkis 3x/minggu",Tidak,"Pernah, Riwayat Appendectomi (Agustus 1991)","Pernah, Post Appendectomi (Agustus 1991)",Tidak Pernah,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,"Ada, Ayah","Ada, Ibu",Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Normal,Normal,Normal,Tidak Ada,Tidak Ada,Tidak,Negatif,Negatif,Negatif,Negatif,Tidak,Ya,"Progresif, Lupa ukuran kacamata",6/25,6/25,6/12,6/7.5,J3,J3,J1,J1,Tidak,Normal,Normal,Intak,Intak,Normal,Normal,Normal,Normal,Normal,Normal,"Missing, Plaque/Kalkulus",Normal,Normal,Normal,Normal,Normal,Normal,Ya,Normal,Normal,Reguler,Normal,Sonor,Sonor,Vesikuler,Vesikuler,Supel,Tidak,Tidak Teraba,Tidak Teraba,Tidak,Normal,Tidak Diperiksa,Tidak Diperiksa,Normal,Normal,Normal,Normal,Tidak,Positif,Positif,Negatif,Negatif,14.5 ,4.5 ,42.7 ,261 ,4.7 ,90.7 ,30.8 ,34.0 ,12.8 ,0.2 ,1.3 *,47.7 *,40.0 ,10.8 *,12 *,27 ,23 ,177 ,54 ,125 *,93 ,5.9 *,31.2 ,0.87 ,5.9 ,Kuning ,Jernih ,1.010 ,Negatif ,6.0 ,Negatif ,Negatif ,Negatif ,Normal ,Negatif ,Negatif ,Negatif ,1 - 3 ,0 - 2 ,+ 1 ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,"Negative Ischemic Response (Normal exercise test) Exercise induced hypertension. Regular exercise, check blood pressure regularly.",- Tidak tampak kelainan radiologis pada jantung dan paru.,"Sinus Bradikardia, HR: 59 x/menit (dalam batas normal) Jika ada keluhan nyeri dada, sesak, konsultasi ke dokter Spesialis Jantung",,,,,
+Pasien C,REG/MT1/202408290022,2024-08-29,Male,21-07-1964,corporate A,Finance,Paket MCU A,"Pemeriksaan Fisik
+ Prehipertensi ( Tekanan Darah Sistolik : 122, Tekanan Darah Diastolik : 80)
+Obesitas (BMI : 33.65)
+Myopia ( Visus tanpa kacamata OD : 6/25, Visus tanpa kacamata OS : 6/25 )
+Presbyopia ( Jegger tanpa kacamata OD : J3, Jegger tanpa kacamata OS : J3 )
+Plaque/Kalkulus gigi ( Gigi : Plaque/Kalkulus )
+Hipertensi ( Ada, Ayah )
+Keluhan Sekarang ( Flu(+) )
+Obat-obatan yang dikonsumsi saat ini ( Amlodipine 10mg )
+Rawat Inap ( Pernah, Riwayat sakit jantung (Juli 2024) )
+Ukuran Kacamata ( ODS:-1.50, Tidak membawa kacamata )
+
+Pemeriksaan Laboratorium
+ Kadar kolesterol total batas tinggi (Kolesterol Total : 224 mg/dL)
+Kadar kolesterol LDL tinggi (LDL Kolesterol Direk : 168 mg/dL)
+Peningkatan kadar asam urat dalam darah (hiperurisemia) (Asam Urat : 7.4 mg/dL)
+Ketonuria (Keton : + 1 )
+Hematuria (Darah : + 1 )
+
+Pemeriksaan Treadmill
+ Negative Ischemic Response (Normal exercise test) Exercise induced hypertension, Abnormal baseline electrocardiogram.
+
+Pemeriksaan THORAX AP/ PA
+ - Kardiomegali dengan elongasi dan kalsifikasi aorta.
+- Tidak tampak kelainan radiologis pada paru.
+
+Pemeriksaan EKG
+ Complete Right Bundle Branch Block (RBBB)
+","
+Lakukan pemeriksaan ulang satu bulan kemudian untuk menentukan status hipertensi.
+
+Lakukan pola hidup sehat dengan: Diet rendah lemak dan karbohidrat Perbanyak konsumsi sayur, buah segar, dan serat.
+Melakukan olah raga sesuai dengan umur dan kemampuan secara teratur 3-5x/minggu selama ± 30 menit untuk mencapai berat badan ideal.
+Konsultasi ke dokter perusahaan/dokter keluarga.
+
+Bila tidak berkacamata, konsultasi ke dokter spesialis mata untuk memastikan perlu tidaknya penggunaan kacamata. Bila berkacamata konsultasi ke dokter spesialis mata untuk memastikan ukuran lensa kacamata yang tepat
+
+Bila tidak berkacamata, konsultasi ke dokter spesialis mata untuk memastikan perlu tidaknya penggunaan kacamata. Bila berkacamata konsultasi ke dokter spesialis mata untuk memastikan ukuran lensa kacamata yang tepat
+
+Jaga kebersihan gigi / mulut.  Konsultasi ke dokter perusahaan / dokter gigi.
+
+Konsultasi ke dokter perusahaan/dokter keluarga dan lakukan penurunan kadar kolesterol total dengan: Hindari konsumsi makanan tinggi lemak, alkohol, dan soda.
+Perbanyak konsumsi sayur, buah segar, dan serat.
+Olah raga sesuai dengan umur dan kemampuan secara teratur 3-5x/minggu selama ± 30 menit untuk mencapai berat badan ideal.
+
+Lakukan penurunan kadar kolesterol LDL dengan: Hindari konsumsi makanan tinggi lemak, alkohol, dan soda. Perbanyak konsumsi sayur, buah segar, dan serat.
+Olah raga sesuai dengan umur dan kemampuan secara teratur 3-5x/minggu selama ± 30 menit untuk mencapai berat badan ideal.
+Konsultasi ke dokter perusahaan/dokter keluarga/dokter spesialis Penyakit Dalam.
+
+Diet rendah purin dan konsultasi ke dokter perusahaan/dokter keluarga atau dokter spesialis penyakit dalam.
+
+Konsultasi ke dokter perusahaan/dokter keluarga.
+
+Biasakan minum air putih minimal 8-10 gelas/hari atau 1.5-2 liter/hari (disarankan air hangat), konsumsi buah jeruk, dan tomat, serta hindari kebiasaan menahan buang air kecil untuk mencegah risiko timbulnya infeksi dan batu saluran kemih.
+
+- Konsultasi ke dokter Spesialis Jantung
+- Cek rutin tekanan darah
+
+Konsul Dokter Spesialis Jantung untuk evaluasi lebih lanjut.
+
+Echocardiography
+
+Lakukan pemeriksaan kesehatan berkala setidaknya setiap 1 tahun sekali",TEMPORARY UNFIT,"Dr. Andi Wiradharma, SpPK(K) dr. Lutvia Aprilita",122/80,66,36,19,158,84,33.65,52.2,Flu(+),Amlodipine 10mg,Tidak,Ya,Tidak,Tidak Pernah,"Pernah, Riwayat sakit jantung (Juli 2024)",Tidak Pernah,Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Ada,Tidak Ada,"Ada, Ayah",Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Normal,Normal,Normal,Tidak Ada,Tidak Ada,Tidak,Negatif,Negatif,Negatif,Negatif,Tidak,Ya,"ODS:-1.50, Tidak membawa kacamata",6/25,6/25,J3,J3,-,-,-,-,Tidak,Normal,Normal,Intak,Intak,Normal,Normal,Normal,Normal,Normal,Normal,Plaque/Kalkulus,Normal,Normal,Normal,Normal,Normal,Normal,Ya,Normal,Normal,Reguler,Normal,Sonor,Sonor,Vesikuler,Vesikuler,Supel,Tidak,Tidak Teraba,Tidak Teraba,Tidak,Normal,Tidak,Tidak,Normal,Normal,Normal,Normal,Tidak,Positif,Positif,Negatif,Negatif,15.9 ,8.7 ,49.6 ,251 ,5.5 ,90.5 ,29.0 ,32.1 ,13.5 ,0.5 ,5.8 *,56.5 ,30.6 ,6.6 ,10 ,25 ,29 ,224 *,44 ,168 *,113 *,6.5 *,32.3 ,1.15 ,7.4 *,Kuning ,Agak Keruh *,1.015 ,Negatif ,6.0 ,Negatif ,Negatif ,+ 1 *,Normal ,Negatif ,Negatif ,+ 1 *,1 - 3 ,1 - 3 ,+ 1 ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,"Negative Ischemic Response (Normal exercise test) Exercise induced hypertension, Abnormal baseline electrocardiogram.","- Kardiomegali dengan elongasi dan kalsifikasi aorta.
+- Tidak tampak kelainan radiologis pada paru.",Complete Right Bundle Branch Block (RBBB),,,,,
+Pasien D,REG/MT1/202409060014,2024-09-06,Male,16-02-1967,corporate A,Direksi,Paket MCU B,"Pemeriksaan Fisik
+ Prehipertensi ( Tekanan Darah Sistolik : 130, Tekanan Darah Diastolik : 80)
+Obesitas (BMI : 29.67)
+Myopia ( Visus dengan kacamata OD : 6/12, Visus dengan kacamata OS : 6/9, Visus tanpa kacamata OD : 1/60, Visus tanpa kacamata OS : 1/60 )
+Caries gigi (gigi berlubang), Plaque/Kalkulus gigi  ( Gigi : Caries, Plaque/Kalkulus )
+Hipertensi ( Ada, Ayah )
+Obat-obatan yang dikonsumsi saat ini ( Nevodio, Candesartan 8mg, Simvastatin )
+Olahraga ( Ya, Jalan kaki 2x/minggu )
+Operasi ( Pernah, Riwayat Op. Lutut kiri (1983) )
+Rawat Inap ( Pernah, Post Op. Lutut kiri (1983), Riwayat Gondongan  )
+Ukuran Kacamata ( ODS:-5.00 )
+
+Pemeriksaan Laboratorium
+ Peningkatan Laju Endap Darah (LED : 23 mm/Jam)
+Kadar kolesterol LDL mendekati optimal (LDL Kolesterol Direk : 120 mg/dL)
+Hematuria (Darah : + 1 )
+
+Pemeriksaan THORAX AP/ PA
+ - Elongasi aorta. Jantung tidak membesar.
+- Tidak tampak kelainan radiologis pada paru.
+
+
+Pemeriksaan EKG
+ AV Block Derajat I, HR: 89 x/menit
+","
+Lakukan pemeriksaan ulang satu bulan kemudian untuk menentukan status hipertensi.
+
+Lakukan pola hidup sehat dengan: Diet rendah lemak dan karbohidrat Perbanyak konsumsi sayur, buah segar, dan serat.
+Melakukan olah raga sesuai dengan umur dan kemampuan secara teratur 3-5x/minggu selama ± 30 menit untuk mencapai berat badan ideal.
+Konsultasi ke dokter perusahaan/dokter keluarga.
+
+Bila tidak berkacamata, konsultasi ke dokter spesialis mata untuk memastikan perlu tidaknya penggunaan kacamata. Bila berkacamata konsultasi ke dokter spesialis mata untuk memastikan ukuran lensa kacamata yang tepat
+
+Jaga kebersihan gigi / mulut.  Konsultasi ke dokter perusahaan / dokter gigi.
+
+Konsultasi ke dokter perusahaan/dokter keluarga.
+
+Biasakan minum air putih minimal 8-10 gelas/hari atau 1.5-2 liter/hari (disarankan air hangat), konsumsi buah jeruk, dan tomat, serta hindari kebiasaan menahan buang air kecil untuk mencegah risiko timbulnya infeksi dan batu saluran kemih.
+
+Konsul Dokter Spesialis Jantung untuk evaluasi lebih lanjut.
+
+Lakukan Test Treadmill 
+
+Lakukan pemeriksaan kesehatan berkala setidaknya setiap 1 tahun sekali",TEMPORARY UNFIT,"Dr. Andi Wiradharma, SpPK(K) dr. Lutvia Aprilita",130/80,89,36,19,178,94,29.67,70.2,Tidak Ada,"Nevodio, Candesartan 8mg, Simvastatin",Tidak,"Ya, Jalan kaki 2x/minggu",Tidak,"Pernah, Riwayat Op. Lutut kiri (1983)","Pernah, Post Op. Lutut kiri (1983), Riwayat Gondongan ",Tidak Pernah,Ada,Tidak Ada,Tidak Ada,Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,"Ada, Ayah",Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Normal,Normal,Normal,Tidak Ada,Tidak Ada,Tidak,Negatif,Negatif,Negatif,Negatif,Tidak,Ya,ODS:-5.00,1/60,1/60,6/12,6/9,J1,J1,-,-,Tidak,Normal,Normal,Intak,Intak,Normal,Normal,Normal,Normal,Normal,Normal,"Caries, Plaque/Kalkulus",Normal,Normal,Normal,Normal,Normal,Normal,Ya,Normal,Normal,Reguler,Normal,Sonor,Sonor,Vesikuler,Vesikuler,Supel,Tidak,Tidak Teraba,Tidak Teraba,Tidak,Normal,Tidak Diperiksa,Tidak Diperiksa,Normal,Normal,Normal,Normal,Tidak,Positif,Positif,Negatif,Negatif,13.7 ,5.6 ,41.9 ,424 ,4.4 *,95.7 ,31.3 ,32.7 ,12.5 ,0.5 ,1.3 *,59.4 ,30.0 ,8.8 *,23 *,16 ,13 ,174 ,47 ,120 *,99 ,5.5 ,23.0 ,0.68 ,5.8 ,Kuning ,Agak Keruh *,1.015 ,Negatif ,6.0 ,Negatif ,Negatif ,Negatif ,Normal ,Negatif ,Negatif ,+ 1 *,1 - 3 ,3 - 5 ,+ 1 ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,Negative Ischemic Response ( Normal Exercise Test ) Regular exercise,"- Elongasi aorta. Jantung tidak membesar.
+- Tidak tampak kelainan radiologis pada paru.
+","AV Block Derajat I, HR: 89 x/menit",,,,,
+Pasien E,REG/MT1/202409050007,2024-09-05,Male,02-02-1970,corporate A,DIREKSI,Paket MCU B,"Pemeriksaan Fisik
+ Prehipertensi ( Tekanan Darah Sistolik : 125, Tekanan Darah Diastolik : 80)
+Obesitas (BMI : 39.33)
+Myopia ( Visus dengan kacamata OD : 6/12, Visus dengan kacamata OS : 6/12, Visus tanpa kacamata OD : 2/60, Visus tanpa kacamata OS : 1/60 )
+Caries gigi (gigi berlubang), Missing (gigi hilang), Plaque/Kalkulus gigi  ( Gigi : Caries, Missing, Plaque/Kalkulus )
+Diabetes Mellitus ( Ada, Ibu )
+Hipertensi ( Ada, Ayah )
+Obat-obatan yang dikonsumsi saat ini ( Obat Plavix, Exforge, Lipitor, Janumet )
+Tumor ganas/Kanker ( Ada, Ca. Mammae (Ibu) )
+Ukuran Kacamata ( ODS: -4.00 ODS: +0.50 )
+
+Pemeriksaan Laboratorium
+ Peningkatan HbA1C (HbA1C : 10.2 %)
+Peningkatan Laju Endap Darah (LED : 13 mm/Jam)
+Peningkatan enzim fungsi hati (SGPT/ALT : 69 U/L)
+Kadar kolesterol total batas tinggi (Kolesterol Total : 230 mg/dL)
+Kadar kolesterol LDL tinggi (LDL Kolesterol Direk : 160 mg/dL)
+Dugaan Diabetes melitus (Glukosa Puasa : 198 mg/dL)
+Peningkatan kadar asam urat dalam darah (hiperurisemia) (Asam Urat : 7.1 mg/dL)
+Glukosuria (Glukosa : + 1 )
+","
+Lakukan pemeriksaan ulang satu bulan kemudian untuk menentukan status hipertensi.
+
+Lakukan pola hidup sehat dengan: Diet rendah lemak dan karbohidrat Perbanyak konsumsi sayur, buah segar, dan serat.
+Melakukan olah raga sesuai dengan umur dan kemampuan secara teratur 3-5x/minggu selama ± 30 menit untuk mencapai berat badan ideal.
+Konsultasi ke dokter perusahaan/dokter keluarga.
+
+Bila tidak berkacamata, konsultasi ke dokter spesialis mata untuk memastikan perlu tidaknya penggunaan kacamata. Bila berkacamata konsultasi ke dokter spesialis mata untuk memastikan ukuran lensa kacamata yang tepat
+
+Jaga kebersihan gigi / mulut.  Konsultasi ke dokter perusahaan / dokter gigi.
+
+Konsultasi ke dokter perusahaan/dokter keluarga/dokter spesialis Penyakit Dalam.
+
+Konsultasi ke dokter perusahaan/dokter keluarga.
+
+Konsultasi ke dokter perusahaan/dokter keluarga dan lakukan penurunan kadar kolesterol total dengan: Hindari konsumsi makanan tinggi lemak, alkohol, dan soda.
+Perbanyak konsumsi sayur, buah segar, dan serat.
+Olah raga sesuai dengan umur dan kemampuan secara teratur 3-5x/minggu selama ± 30 menit untuk mencapai berat badan ideal.
+
+Lakukan penurunan kadar kolesterol LDL dengan: Hindari konsumsi makanan tinggi lemak, alkohol, dan soda. Perbanyak konsumsi sayur, buah segar, dan serat.
+Olah raga sesuai dengan umur dan kemampuan secara teratur 3-5x/minggu selama ± 30 menit untuk mencapai berat badan ideal.
+Konsultasi ke dokter perusahaan/dokter keluarga/dokter spesialis Penyakit Dalam.
+
+Biasakan minum air putih 1.5-2 liter/hari (disarankan air hangat) disesuaikan dengan kondisi fisik, serta hindari kebiasaan menahan buang air kecil untuk mencegah risiko timbulnya infeksi dan batu saluran kemih.
+Jika dalam kondisi menstruasi (untuk perempuan), lakukan ulang pemeriksaan urinalisa 1 minggu setelah bersih menstruasi
+
+Diet rendah purin dan konsultasi ke dokter perusahaan/dokter keluarga atau dokter spesialis penyakit dalam.
+
+Lakukan pemeriksaan kesehatan berkala setidaknya setiap 1 tahun sekali",TEMPORARY UNFIT,"Dr. Andi Wiradharma, SpPK(K) dr. Lutvia Aprilita",125/80,73,36.5,18,168,111,39.33,61.2,Tidak Ada,"Obat Plavix, Exforge, Lipitor, Janumet",Tidak,Tidak,Tidak,Tidak Pernah,Tidak Pernah,Tidak Pernah,Ada,Ada,Tidak Ada,Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Ada,Tidak Ada,"Ada, Ayah","Ada, Ibu",Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,Tidak Ada,"Ada, Ca. Mammae (Ibu)",Tidak Ada,Normal,Normal,Normal,Tidak Ada,Tidak Ada,Tidak,Negatif,Negatif,Negatif,Negatif,Tidak,Ya,ODS: -4.00 ODS: +0.50,2/60,1/60,6/12,6/12,J2,J2,J1,J1,Tidak,Normal,Normal,Intak,Intak,Normal,Normal,Normal,Normal,Normal,Normal,"Caries, Missing, Plaque/Kalkulus",Normal,Normal,Normal,Normal,Normal,Normal,Ya,Normal,Normal,Reguler,Normal,Sonor,Sonor,Vesikuler,Vesikuler,Supel,Tidak,Tidak Teraba,Tidak Teraba,Tidak,Normal,Tidak,Tidak,Normal,Normal,Normal,Normal,Tidak,Positif,Positif,Negatif,Negatif,14.6 ,7.5 ,45.2 ,256 ,5.3 ,85.3 ,27.5 ,32.3 ,12.6 ,0.5 ,3.1 ,58.7 ,29.5 ,8.2 *,13 *,38 ,69 *,230 *,44 ,160 *,198 *,10.2 *,27.6 ,0.98 ,7.1 *,Kuning ,Jernih ,1.025 ,Negatif ,5.0 ,Negatif ,+ 1 *,Negatif ,Normal ,Negatif ,Negatif ,Negatif ,2 - 3 ,0 - 2 ,+ 1 ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,Negatif ,"Negative Ischemic Response (Normal exercise test) Exercise induced hypertension. Regular exercise, check blood pressure regularly.",- Tidak tampak kelainan radiologis pada jantung dan paru.,"Normal EKG, HR: 73 x/menit",,,,,

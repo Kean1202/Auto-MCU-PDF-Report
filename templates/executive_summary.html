@@ -4,24 +4,17 @@
     <meta charset="UTF-8">
     <title>Laporan Hasil Medical Check Up</title>
     <style>
-        body.executive_summary {
+        *{
+            margin: 0;
+            padding:0;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             width: 100%;
             height: 100%;
-            font-family: Arial, sans-serif;
-        }
-
-        .watermark {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: url('file:///C:/Users/keans/OneDrive/Documents/Coding/MSIB Plebo/MCU Report PDF/templates/plebo_watermark_a4.png') center center no-repeat;
-            z-index: -1; /* Keeps it behind the content */
-            opacity: 0.3; 
-            background-size: cover;
         }
 
         .report-box {
@@ -149,12 +142,21 @@
             color: #555;
             page-break-inside: avoid;
         }
+
+        .footer-content {
+            text-align: right;
+        }
+
+        .doctor-text {
+            max-width: 200px; 
+            word-wrap: break-word; 
+            white-space: normal; 
+            text-align: right; 
+            display: inline-block; 
+        }
     </style>
 </head>
-<body class="executive_summary">
-    <!-- Watermark -->
-    <div class="watermark"></div>
-
+<body>
     <div style="height: 25px;"></div>
 
     <div class="report-box">
@@ -202,8 +204,8 @@
 
                 <th>Dokter Pemeriksa</th>
                 {% for subheader, fields in data["MASTER DATA"].items() %}
-                {% if 'mcu_date' in fields %}
-                    <td>Dr. ABC</td>
+                {% if 'doctor' in fields %}
+                    <td>{{ fields.doctor }}</td>
                 {% endif %}
                 {% endfor %}
             </tr>
@@ -299,9 +301,14 @@
 
         <!-- Footer -->
         <div class="footer">
-            Dokter Penanggung Jawab:<br>
-            Dr. ABC<br>
-            Dr. XYZ
+            <div class="footer-content">
+                Dokter Penanggung Jawab:<br>
+                {% for subheader, fields in data["MASTER DATA"].items() %}
+                {% if 'doctor' in fields %}
+                    <div class="doctor-text">{{ fields.doctor }}</div>
+                {% endif %}
+                {% endfor %}
+            </div>
         </div>
     </div>
     
